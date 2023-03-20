@@ -6,6 +6,7 @@ async function main(){
     books.forEach(renderBook)
 }
 
+
 function renderBook(book) {
     let root = document.querySelector('#root')
 
